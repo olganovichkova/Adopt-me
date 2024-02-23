@@ -39,6 +39,7 @@ const SearchParams = () => {
         <label htmlFor="animal">
           Animal
           <select
+            name="animal"
             id="animal"
             value={animal}
             onChange={(e) => {
